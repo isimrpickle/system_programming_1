@@ -1,7 +1,7 @@
 # Job Commander and Server
 
 ## Overview
-This project consists of two main components: `jobCommander` and `Server`. The `jobCommander` acts as a client sending job requests to the `Server`, which manages job execution and concurrency control. Communication is handled via FIFOs and synchronized using signal handling and shared memory mechanisms.
+This project consists of two main components: `jobCommander` and `Server`. The `jobCommander` acts as a client sending job requests to the `Server`, which manages job execution and concurrency control. Communication is handled via FIFOs and it's synchronized using signal handling.
 
 ## Compilation & Execution
 
