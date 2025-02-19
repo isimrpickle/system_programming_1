@@ -77,6 +77,6 @@ The `Server` is designed to handle job execution and command processing through 
 
 ## Assumptions
 - When `exit` is called, running jobs continue until completion.
-- Queue implementation is based on linked lists.
+- My Queue implementation is based on linked lists.
 
 
